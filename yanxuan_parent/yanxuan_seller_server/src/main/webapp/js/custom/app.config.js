@@ -6,7 +6,8 @@ app.config(["$routeProvider",function($routeProvider){
     })
   .when("/goods/edit",
     {
-      templateUrl: "pages/goods/edit.html"
+      templateUrl: "pages/goods/edit.html",
+      controller : "goodsController"
     })
   .when("/goods/manage",
     {
@@ -21,4 +22,4 @@ app.config(["$routeProvider",function($routeProvider){
       templateUrl: "pages/account/security.html"
     })
   .otherwise({redirectTo:'/'});
-}])
+}]);

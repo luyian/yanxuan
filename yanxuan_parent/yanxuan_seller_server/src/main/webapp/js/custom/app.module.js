@@ -1,4 +1,6 @@
 var app = angular.module("yanxuan",[
 	"ngRoute",
-	"pagination"
+	"pagination",
+	"category",
+	"goods"
 	]);

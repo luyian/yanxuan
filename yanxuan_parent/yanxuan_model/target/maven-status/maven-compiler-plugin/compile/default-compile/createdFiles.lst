@@ -54,6 +54,7 @@ com\it\yanxuan\viewmodel\Specification.class
 com\it\yanxuan\model\GoodsSpecOptionExample$GeneratedCriteria.class
 com\it\yanxuan\model\GoodsCategoryBrandSpecExample$Criteria.class
 com\it\yanxuan\model\SellerShopExample$Criterion.class
+com\it\yanxuan\viewmodel\GoodsInfo.class
 com\it\yanxuan\model\GoodsCategoryExample$Criterion.class
 com\it\yanxuan\model\SecondKillOrder.class
 com\it\yanxuan\model\SellerShopExample.class

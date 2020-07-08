@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>商品管理</title>
-
+    <!--引入上传图片的css文件-->
+    <link rel="stylesheet" type="text/css" href="../../plugins/upload/css/t_upload.css">
   </head>
-<body >
+<body>
 	<ol class="breadcrumb">
 		<li class="breadcrumb-item">
       <a href="#/">首页</a>
@@ -32,33 +33,31 @@
           <div id="category" class="row">
             <form>
               <div class="form-group row">
-                <label for="brandName" class="col-sm-3 col-form-label">一级类目</label>
+                <label class="col-sm-3 col-form-label">一级类目</label>
                 <div class="col-sm-8">
-                  <select class="form-control invalid" required>
-                    <option value="737">家用电器</option>
+                  <select class="form-control invalid" required ng-model="entity.category1Id"
+                          ng-options="item.id as item.name for item in category1List">
+                    <option value="">请选择一级类目</option>
                   </select>
                 </div>
               </div>
               <div class="form-group row">
-                <label for="englishName" class="col-sm-3 col-form-label">二级类目</label>
+                <label class="col-sm-3 col-form-label">二级类目</label>
                 <div class="col-sm-8" >
-                  <select class="form-control invalid" required>
-                    <option value="">请先选择一级类目</option>
-                    <option value="738">生活电器</option>
-                    <option value="752">厨房小电</option>
-                    <option value="794">大 家 电</option>
+                  <select class="form-control invalid" required ng-model="entity.category2Id"
+                          ng-options="item.id as item.name for item in category2List">
+                    <option value="">请选择二级类目</option>
+
                   </select>
                 </div>
               </div>
               <div class="form-group row">
-                <label for="firstChar" class="col-sm-3 col-form-label">三级类目</label>
+                <label class="col-sm-3 col-form-label">二级类目</label>
                 <div class="col-sm-8" >
-                  <select class="form-control invalid" required>
-                    <option value="">请先选择二级类目</option>
-                    <option value="739">剃须刀</option>
-                    <option value="740">电吹风</option>
-                    <option value="741">口腔护理</option>
-                    <option value="748">加湿器</option>
+                  <select class="form-control invalid" required ng-model="entity.category3Id"
+                          ng-options="item.id as item.name for item in category3List">
+                    <option value="">请选择三级类目</option>
+
                   </select>
                 </div>
               </div>
@@ -69,43 +68,53 @@
               <div class="form-group row">
                 <label for="goodsName" class="col-sm-4 col-form-label">商品名称</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="goodsName" placeholder="请输入商品名称">
+                  <input type="text" class="form-control" id="goodsName" placeholder="请输入商品名称" ng-model="entity.name">
                 </div>
               </div>
               <div class="form-group row">
                 <label for="goodsLabel" class="col-sm-4 col-form-label">商品标题</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="goodsLabel" placeholder="请输入商品标题">
+                  <input type="text" class="form-control" id="goodsLabel" placeholder="请输入商品标题" ng-model="entity.lable">
                 </div>
               </div>
               <div class="form-group row">
                 <label for="sellPoint" class="col-sm-4 col-form-label">商品卖点</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="sellPoint" placeholder="请输入商品卖点">
+                  <input type="text" class="form-control" id="sellPoint" placeholder="请输入商品卖点" ng-model="entity.sellPoint">
                 </div>
               </div>
               <div class="form-group row">
                 <label for="goodsBrand" class="col-sm-4 col-form-label">商品品牌</label>
-                <div class="col-sm-8">
-                  <input type="text" class="form-control" id="goodsBrand" placeholder="请输入品牌的品牌网址">
+                <div class="col-sm-8" >
+                  <select id="goodsBrand" class="form-control invalid" required ng-model="entity.brandId"
+                          ng-options="item.id as item.name for item in brandList">
+                    <option value="">请选择商品品牌</option>
+                  </select>
                 </div>
               </div>
               <div class="form-group row">
                 <label for="goodsPrice" class="col-sm-4 col-form-label">商品价格</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="goodsPrice" placeholder="请输入商品卖点">
+                  <input type="text" class="form-control" id="goodsPrice" placeholder="请输入商品价格" ng-model="entity.price">
                 </div>
               </div>
               <div class="form-group row">
                 <label for="package" class="col-sm-4 col-form-label">包装列表</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="package" placeholder="请输入品牌的品牌网址">
+                  <input type="text" class="form-control" id="package" placeholder="请输入包装列表" ng-model="entity.packageList">
                 </div>
               </div>
               <div class="form-group row">
                 <label for="sellService" class="col-sm-4 col-form-label">售后服务</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="sellService" placeholder="请输入品牌的品牌网址">
+                  <input type="text" class="form-control" id="sellService" placeholder="售后服务" ng-model="entity.sellService">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="sellService" class="col-sm-4 col-form-label">商品图片</label>
+                <div class="col-sm-8">
+                  <button type="button" class="btn btn-primary" data-toggle="modal"
+                          data-target="#goodsPicModal" ng-click="uploadSpuPic()">上传图片</button>
                 </div>
               </div>
             </form>
@@ -194,6 +203,47 @@
       </div>
     </div>
   </div>
+    <!-- 商品上传图片 -->
+    <div class="modal fade" id="goodsPicModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="goodsPicLabel">SKU图片</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="goodsPic"></div>
+          </div>
+          <div class="modal-footer text-center">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" >关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sku上传图片 -->
+    <div class="modal fade" id="skuPicModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="newModalLabel">SKU图片</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="skuPic"></div>
+          </div>
+          <div class="modal-footer text-center">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" >关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--引入文件上传的js文件-->
+    <script type="text/javascript" src="../../plugins/upload/ajaxfileupload.js"></script>
+    <script type="text/javascript" src="../../plugins/upload/t_upload.js"></script>
 <script type="text/javascript" src="js/custom/wizard.js"></script>
 <script type="text/javascript" src="js/custom/editor.js"></script>
 </body>

@@ -16,3 +16,11 @@ angular.module("yanxuan").controller("baseController", function ($scope) {
     // 状态数组
     $scope.statusArray = ["正常","停用"];
 });
+
+//获取springsecurity中登录的用户名
+angular.module("yanxuan").controller("loginUserController", function ($scope, $http) {
+    //发送请求，获取数据
+    $http.get("/loginUser").then(function (value) {
+        $scope.username = value.data.username;
+    });
+});
