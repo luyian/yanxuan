@@ -51,6 +51,7 @@ public class AccountServiceImpl implements IAccountService {
                 }
             }
         }
+        System.out.println("用户不存在或未激活。。。。。。。。。。。。");
         return null;
     }
 }

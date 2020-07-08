@@ -8,13 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="yanxuan_goods_api" />
         <module name="yanxuan_model" />
-        <module name="mybatis_genertor" />
+        <module name="yanxuan_goods_service" />
         <module name="yanxuan_seller_server" />
-        <module name="dubbo-01-start" />
         <module name="yanxuan_dao" />
         <module name="yanxuan_manager_server" />
-        <module name="dubbo-01-customer" />
-        <module name="yanxuan_goods_service" />
         <module name="yanxuan_common" />
       </profile>
     </annotationProcessing>

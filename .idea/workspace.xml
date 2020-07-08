@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af71882b-da4d-4b1e-8630-81337771bd6f" name="Default Changelist" comment="" />
+    <list default="true" id="af71882b-da4d-4b1e-8630-81337771bd6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/seller/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/seller/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/classes/com/it/yanxuan/seller/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/classes/com/it/yanxuan/seller/service/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/classes/com/it/yanxuan/seller/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/classes/com/it/yanxuan/seller/service/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/spring/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/classes/spring/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/tomcat/logs/access_log.2020-07-08" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/tomcat/logs/access_log.2020-07-08" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-security.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +61,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -53,8 +79,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1derqoHG78pKtplboJ6Xsh7idWd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -201,12 +229,23 @@
       <workItem from="1593572347964" duration="2336000" />
       <workItem from="1593582710598" duration="5685000" />
       <workItem from="1594096455955" duration="25097000" />
-      <workItem from="1594173521553" duration="5751000" />
+      <workItem from="1594173521553" duration="7903000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dubbo-01-customer/dubbo-01-customer.iml" filepath="$PROJECT_DIR$/dubbo-01-customer/dubbo-01-customer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-01-start/dubbo-01-start.iml" filepath="$PROJECT_DIR$/dubbo-01-start/dubbo-01-start.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis_genertor/mybatis_genertor.iml" filepath="$PROJECT_DIR$/mybatis_genertor/mybatis_genertor.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_common/yanxuan_common.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/yanxuan_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/yanxuan_dao.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/yanxuan_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/yanxuan_goods_api.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/yanxuan_goods_api.iml" />

@@ -32,22 +32,22 @@
     <!--认证管理器-->
     <authentication-manager>
         <!--启用自定义的UserDetailsService-->
-        <authentication-provider>
+        <authentication-provider user-service-ref="userDetailsService">
             <!--启用密码解码器-->
-<!--            <password-encoder ref="bCryptPasswordEncoder" />-->
-           <user-service>
-                <user name="root" password="{noop}root" authorities="ROLE_USER"/>
-            </user-service>
+            <password-encoder ref="bCryptPasswordEncoder" />
+<!--           <user-service>-->
+<!--                <user name="root" password="{noop}root" authorities="ROLE_USER"/>-->
+<!--            </user-service>-->
         </authentication-provider>
     </authentication-manager>
 
     <!-- Spring容器管理自定义的UserDetailService-->
-<!--    <beans:bean id="userDetailsService" class="com.it.yanxuan.seller.service.UserDetailsServiceImpl" >-->
-<!--        <beans:property name="accountService" ref="accountService" />-->
-<!--    </beans:bean>-->
-<!--    &lt;!&ndash;引用Dubbo的远程服务&ndash;&gt;-->
-<!--    <dubbo:reference interface="com.it.yanxuan.seller.api.IAccountService" id="accountService" />-->
+    <beans:bean id="userDetailsService" class="com.it.yanxuan.seller.service.UserDetailsServiceImpl" >
+        <beans:property name="accountService" ref="accountService" />
+    </beans:bean>
+    <!--引用Dubbo的远程服务-->
+    <dubbo:reference interface="com.it.yanxuan.seller.api.IAccountService" id="accountService" />
 
-<!--    &lt;!&ndash;spring容器管理PasswordEncoder&ndash;&gt;-->
-<!--    <beans:bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />-->
+    <!--spring容器管理PasswordEncoder-->
+    <beans:bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 </beans:beans>

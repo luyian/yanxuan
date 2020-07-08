@@ -116,3 +116,16 @@
 0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:26:38 +0800] "GET /img/big3.jpg HTTP/1.1" 200 102327 http-bio-9902-exec-10 2
 0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:32:37 +0800] "GET /pages/account/detail.html HTTP/1.1" 200 7563 http-bio-9902-exec-8 5
 0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:32:39 +0800] "GET /pages/account/security.html HTTP/1.1" 200 1576 http-bio-9902-exec-8 2
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:45 +0800] "GET / HTTP/1.1" 302 - http-bio-9902-exec-2 69
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:45 +0800] "GET /login.html HTTP/1.1" 200 2635 http-bio-9902-exec-3 22
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:45 +0800] "GET /img/login.jpg HTTP/1.1" 200 275827 http-bio-9902-exec-4 7
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:52 +0800] "POST /login HTTP/1.1" 302 - http-bio-9902-exec-5 97
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:52 +0800] "GET /index.html HTTP/1.1" 200 6196 http-bio-9902-exec-6 4
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:53 +0800] "GET /home.html HTTP/1.1" 200 2808 http-bio-9902-exec-7 4
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:11:35:55 +0800] "GET /pages/goods/edit.html HTTP/1.1" 304 - http-bio-9902-exec-8 8
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:13:54:11 +0800] "GET /index.html HTTP/1.1" 302 - http-bio-9902-exec-1 118
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:13:54:11 +0800] "GET /login.html HTTP/1.1" 304 - http-bio-9902-exec-3 19
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:13:54:22 +0800] "POST /login HTTP/1.1" 302 - http-bio-9902-exec-4 691
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:13:54:22 +0800] "GET /index.html HTTP/1.1" 200 6196 http-bio-9902-exec-6 6
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:13:54:22 +0800] "GET /home.html HTTP/1.1" 200 2808 http-bio-9902-exec-7 3
+0:0:0:0:0:0:0:1 - - [08/Jul/2020:13:54:24 +0800] "GET /pages/goods/edit.html HTTP/1.1" 304 - http-bio-9902-exec-8 6
