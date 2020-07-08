@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../plugins/angular/angular.min.js"></script>
+</head>
+<body ng-app="demo" ng-controller="demoController">
+<button type="button" ng-click="clickMe()">点我</button>
+    <hr/>
+    结果为，{{count}}
+<script type="text/javascript">
+    var app = angular.module("demo", []);
+    app.controller("demoController", function ($scope) {
+        $scope.count = 1;
+
+        $scope.clickMe = function () {
+            $scope.count ++;
+        }
+    });
+</script>
+</body>
+</html>

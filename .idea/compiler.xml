@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yanxuan_goods_api" />
+        <module name="yanxuan_model" />
+        <module name="mybatis_genertor" />
+        <module name="yanxuan_seller_server" />
+        <module name="dubbo-01-start" />
+        <module name="yanxuan_dao" />
+        <module name="yanxuan_manager_server" />
+        <module name="dubbo-01-customer" />
+        <module name="yanxuan_goods_service" />
+        <module name="yanxuan_common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-01-customer" target="1.8" />
+      <module name="dubbo-01-start" target="1.8" />
+      <module name="mybatis_genertor" target="1.8" />
+      <module name="yanxuan_common" target="1.8" />
+      <module name="yanxuan_dao" target="1.8" />
+      <module name="yanxuan_goods_api" target="1.8" />
+      <module name="yanxuan_goods_service" target="1.8" />
+      <module name="yanxuan_manager_server" target="1.8" />
+      <module name="yanxuan_model" target="1.8" />
+      <module name="yanxuan_parent" target="1.8" />
+      <module name="yanxuan_seller_server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

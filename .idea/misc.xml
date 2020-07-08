@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-01-customer" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-01-start" />
+    <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service" />
+    <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server" />
+    <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-01-start/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-01-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_genertor/pom.xml" />
+        <option value="$PROJECT_DIR$/yanxuan_parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

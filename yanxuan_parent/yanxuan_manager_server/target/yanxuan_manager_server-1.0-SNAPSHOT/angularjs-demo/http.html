@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../plugins/angular/angular.min.js"></script>
+</head>
+<body ng-app="demo" ng-controller="demoController">
+<table width="60%" align="center" bgcolor="skyblue" border="1">
+    <tr>
+        <th>编号</th>
+        <th>名字</th>
+        <th>EnglishName</th>
+        <th>状态</th>
+    </tr>
+    <tr ng-repeat="brand in brandList" align="center">
+        <td>{{brand.id}}</td>
+        <td>{{brand.name}}</td>
+        <td>{{brand.englishName}}</td>
+        <td><span ng-if="brand.isDelete == 0">正常</span><span ng-if="brand.isDelete == 1">删除</span> </td>
+    </tr>
+</table>
+    <script type="text/javascript">
+        angular.module("demo",[]).controller("demoController", function ($scope, $http) {
+            $http({
+                method : "GET",
+                url : "../brand/queryAll"
+            }).then(
+                function (value) {
+                console.log("请求成功");
+                console.log(value);
+                $scope.brandList = value.data;
+                },
+                function (reason) {
+                    console.log(reason);
+                });
+
+            //简写
+            // $http.get("../brand/queryAll").then(
+            //     function (value) {
+            //         alert(value);
+            //     },
+            //     function (reason) {
+            //             alert("请求失败")
+            //     });
+        });
+
+    </script>
+</body>
+</html>
