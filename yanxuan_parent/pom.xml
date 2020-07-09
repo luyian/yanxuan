@@ -167,7 +167,7 @@
             <dependency>
                 <groupId>org.csource</groupId>
                 <artifactId>fastdfs-client-java</artifactId>
-                <version>1.27-RELEASE</version>
+                <version>1.27.0</version>
             </dependency>
             <!-- 文件上传组件 -->
             <dependency>

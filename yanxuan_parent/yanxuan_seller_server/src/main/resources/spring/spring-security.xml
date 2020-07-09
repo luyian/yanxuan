@@ -27,6 +27,11 @@
         <logout logout-success-url="/login.html" delete-cookies="JSESSIONID" invalidate-session="true"/>
         <!--关闭csrf-->
         <csrf disabled="true" />
+
+        <!--Frame options-->
+        <headers>
+            <frame-options policy="SAMEORIGIN"/>
+        </headers>
     </http>
 
     <!--认证管理器-->
