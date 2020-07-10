@@ -2,13 +2,8 @@ package com.it.yanxuan.goods.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.it.yanxuan.goods.api.IGoodsInfoService;
-import com.it.yanxuan.mapper.AccountMapper;
-import com.it.yanxuan.mapper.GoodsSpuMapper;
-import com.it.yanxuan.mapper.SellerShopMapper;
-import com.it.yanxuan.model.Account;
-import com.it.yanxuan.model.AccountExample;
-import com.it.yanxuan.model.SellerShop;
-import com.it.yanxuan.model.SellerShopExample;
+import com.it.yanxuan.mapper.*;
+import com.it.yanxuan.model.*;
 import com.it.yanxuan.viewmodel.GoodsInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,6 +24,12 @@ public class GoodsInfoServiceImpl implements IGoodsInfoService {
     private SellerShopMapper sellerShopMapper;
     @Autowired
     private GoodsSpuMapper goodsSpuMapper;
+    @Autowired
+    private GoodsSkuMapper goodsSkuMapper;
+    @Autowired
+    private GoodsBrandMapper goodsBrandMapper;
+    @Autowired
+    private GoodsCategoryMapper goodsCategoryMapper;
 
     /**
      * 保存商品信息
@@ -64,10 +65,36 @@ public class GoodsInfoServiceImpl implements IGoodsInfoService {
             goodsInfo.setSellerName(sellerShop.getName());
         }
 
-        //保存商品信息
+        //保存商品SPU信息
         //设置商品状态为新增
         goodsInfo.setStatus("0");
         int insert = goodsSpuMapper.insert(goodsInfo);
+
+        //查询品牌名称
+        GoodsBrand goodsBrand = goodsBrandMapper.selectByPrimaryKey(goodsInfo.getBrandId());
+        //查询类目的信息
+        GoodsCategory goodsCategory = goodsCategoryMapper.selectByPrimaryKey(goodsInfo.getCategory3Id());
+        //保存SKU信息
+        List<GoodsSku> skuList = goodsInfo.getSkuList();
+        for (GoodsSku sku : skuList) {
+            //设置goodsId
+            sku.setGoodsId(goodsInfo.getId());
+            //设置label
+            sku.setLabel(goodsInfo.getLabel());
+            //设置品牌的名称
+            sku.setBrandName(goodsBrand.getName());
+            //设置类目名称
+            sku.setCategoryName(goodsCategory.getStructName() + ">" + goodsCategory.getName());
+            //设置商铺的信息
+            assert sellerShop != null;
+            sku.setSellerId(sellerShop.getId());
+            sku.setSellerName(sellerShop.getName());
+            sku.setCreatePerson(sellerShop.getLinkmanName());
+            //设置状态新增
+            sku.setOnSale("0");
+            sku.setStatus("0");
+            goodsSkuMapper.insert(sku);
+        }
         return insert;
     }
 }

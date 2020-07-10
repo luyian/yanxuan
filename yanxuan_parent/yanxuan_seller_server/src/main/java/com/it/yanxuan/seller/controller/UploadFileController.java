@@ -26,7 +26,7 @@ public class UploadFileController {
     public ResponseEntity uploadFile(MultipartFile[] file) {
         Map<String, Object> map = new HashMap<>();
         List<String> list = new ArrayList<>();
-
+        System.out.println("图片个数为：=======" + file.length);
         //创建fastDFS的工具类
         FastDFSClient fastDFSClient = new FastDFSClient("classpath:/fsatdfs/fdfs_client.properties");
         //将文件上传到服务器
@@ -43,6 +43,7 @@ public class UploadFileController {
         }
 
         //将全部文件路径放入map，并返回
+        map.put("errno", 0);
         map.put("data", list);
 
         return new ResponseEntity(map, HttpStatus.OK);

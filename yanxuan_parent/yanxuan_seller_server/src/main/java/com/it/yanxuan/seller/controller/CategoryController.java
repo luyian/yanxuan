@@ -41,7 +41,7 @@ public class CategoryController {
     }
 
     /**
-     * 根据主键查询
+     * 根据主键查询类目信息，加载规格信息
      * @param id
      * @return
      */

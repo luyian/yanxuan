@@ -1,15 +1,14 @@
 package com.it.yanxuan.goods.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.it.yanxuan.goods.api.IGoodsCategoryService;
 import com.it.yanxuan.mapper.GoodsCategoryBrandSpecMapper;
 import com.it.yanxuan.mapper.GoodsCategoryMapper;
-import com.it.yanxuan.model.GoodsCategory;
-import com.it.yanxuan.model.GoodsCategoryBrandSpec;
-import com.it.yanxuan.model.GoodsCategoryBrandSpecExample;
-import com.it.yanxuan.model.GoodsCategoryExample;
+import com.it.yanxuan.mapper.GoodsSpecOptionMapper;
+import com.it.yanxuan.model.*;
 import com.it.yanxuan.result.PageResult;
 import com.it.yanxuan.viewmodel.Category;
 import org.springframework.beans.BeanUtils;
@@ -17,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 类目管理业务实现
@@ -29,6 +29,8 @@ public class GoodsCategoryServiceImpl implements IGoodsCategoryService {
     private GoodsCategoryMapper goodsCategoryMapper;
     @Autowired
     private GoodsCategoryBrandSpecMapper goodsCategoryBrandSpecMapper;
+    @Autowired
+    private GoodsSpecOptionMapper goodsSpecOptionMapper;
 
     @Override
     public PageResult<GoodsCategory> query(Integer pageNum, Integer pageSize, GoodsCategory goodsCategory) {
@@ -86,7 +88,7 @@ public class GoodsCategoryServiceImpl implements IGoodsCategoryService {
     }
 
     /**
-     * 根据主键获取类目信息，关联品、规格
+     * 根据主键获取类目信息，关联品牌、规格
      * @param id
      * @return
      */
@@ -104,7 +106,28 @@ public class GoodsCategoryServiceImpl implements IGoodsCategoryService {
         List<GoodsCategoryBrandSpec> goodsCategoryBrandSpecs =
                 goodsCategoryBrandSpecMapper.selectByExample(goodsCategoryBrandSpecExample);
         if (goodsCategoryBrandSpecs.size() > 0) {
+            //关联的品牌和规格信息
             category.setRelation(goodsCategoryBrandSpecs.get(0));
+
+            //获得规格信息
+            //[{"id":18,"name":"颜色"}]
+            String specIds = goodsCategoryBrandSpecs.get(0).getSpecIds();
+            //转mapList
+            List<Map> mapList = JSON.parseArray(specIds, Map.class);
+
+            //根据规格id，获取规格项
+            for (Map map : mapList) {
+                //获取规格的id
+                Long specId = new Long((Integer)map.get("id"));
+                //创建查询条件
+                GoodsSpecOptionExample goodsSpecOptionExample = new GoodsSpecOptionExample();
+                goodsSpecOptionExample.createCriteria().andSpecIdEqualTo(specId);
+                List<GoodsSpecOption> optionList = goodsSpecOptionMapper.selectByExample(goodsSpecOptionExample);
+
+                //存放到map中
+                map.put("optionList", optionList);
+            }
+            category.setSpecList(mapList);
         } else {
             GoodsCategoryBrandSpec relation = new GoodsCategoryBrandSpec();
             relation.setBrandIds("[]");

@@ -15,10 +15,10 @@ $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirec
 // 初始化结束按钮
 var btnFinish = $('<button id="btnFinish" ng-click="save()"></button>').text('保存').addClass('btn btn-info d-none');
 // 设置结束按钮的点击事件
-btnFinish.on('click', function(){
-  // 跳转到商品列表页面
-  window.location="#/goods/manage";
-});
+// btnFinish.on('click', function(){
+//   // 跳转到商品列表页面
+//   window.location="#/goods/manage";
+// });
 
 // 初始化取消按钮
 var btnCancel = $('<button></button>').text('取消').addClass('btn btn-danger');

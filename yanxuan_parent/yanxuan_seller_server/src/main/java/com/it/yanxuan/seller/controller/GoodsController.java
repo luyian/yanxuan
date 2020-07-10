@@ -2,6 +2,7 @@ package com.it.yanxuan.seller.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.it.yanxuan.goods.api.IGoodsInfoService;
+import com.it.yanxuan.viewmodel.Category;
 import com.it.yanxuan.viewmodel.GoodsInfo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -39,4 +40,5 @@ public class GoodsController {
         }
         return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
     }
+
 }

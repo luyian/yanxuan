@@ -2,61 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af71882b-da4d-4b1e-8630-81337771bd6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_arccode_fastdfs_client_java_1_27_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/src/main/java/com/it/yanxuan/common/utils/FastDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/src/main/resources/fsatdfs/fdfs_client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/UploadFileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/fsatdfs/fdfs_client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/images/imgadd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/test/java/com/it/yanxuan/test/FastdfsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yanxuan_seller_server_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_seller_server_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/target/yanxuan_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/target/yanxuan_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/yanxuan_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/yanxuan_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/target/yanxuan_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/target/yanxuan_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/target/yanxuan_goods_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/target/yanxuan_goods_api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/tomcat/logs/access_log.2020-07-08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_goods_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_goods_api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/target/yanxuan_goods_service-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_goods_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_goods_api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/target/yanxuan_manager_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/target/yanxuan_model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/target/yanxuan_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources/spring/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/src/main/java/com/it/yanxuan/viewmodel/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/src/main/java/com/it/yanxuan/viewmodel/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/UploadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/UploadFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/editor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/goods/goods.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/goods/goods.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/wizard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/pages/goods/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/pages/goods/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/plugins/upload/css/t_upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/plugins/upload/css/t_upload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/classes/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/tomcat/logs/access_log.2020-07-08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_goods_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_goods_api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/WEB-INF/lib/yanxuan_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/js/custom/goods/goods.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/js/custom/goods/goods.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/pages/goods/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/target/yanxuan_seller_server-1.0-SNAPSHOT/pages/goods/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/yanxuan_seller_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/yanxuan_seller_server.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +42,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="spring-beans.schema" />
         <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -285,7 +241,8 @@
       <workItem from="1594096455955" duration="25097000" />
       <workItem from="1594173521553" duration="22490000" />
       <workItem from="1594261158582" duration="8492000" />
-      <workItem from="1594287608735" duration="6142000" />
+      <workItem from="1594287608735" duration="6831000" />
+      <workItem from="1594348492572" duration="24134000" />
     </task>
     <servers />
   </component>
