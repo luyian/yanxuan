@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.itjiguang</groupId>
+    <groupId>com.it</groupId>
     <artifactId>yanxuan_parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -15,6 +15,9 @@
         <module>yanxuan_goods_service</module>
         <module>yanxuan_manager_server</module>
         <module>yanxuan_seller_server</module>
+        <module>yanxuan_ad_api</module>
+        <module>yanxuan_ad_service</module>
+        <module>yanxuan_portal_server</module>
     </modules>
     <!--父工程的作用只是用来管理以来信息、聚合模块-->
     <packaging>pom</packaging>

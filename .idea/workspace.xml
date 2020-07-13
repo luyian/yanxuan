@@ -2,16 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af71882b-da4d-4b1e-8630-81337771bd6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_ad_service_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_ad_service_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_portal_server_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_portal_server_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_api/src/main/java/com/it/yanxuan/ad/api/IAdInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_api/src/main/java/com/it/yanxuan/ad/api/IAdTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_api/yanxuan_ad_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/src/main/java/com/it/yanxuan/ad/service/AdInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/src/main/java/com/it/yanxuan/ad/service/AdTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/yanxuan_ad_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/java/com/it/yanxuan/ad/controller/AdInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/java/com/it/yanxuan/ad/controller/AdTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/java/com/it/yanxuan/ad/controller/UploadFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/resources/fsatdfs/fdfs_client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adInfo/adInfo.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adInfo/adInfo.edit.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adInfo/adInfo.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adInfo/adInfo.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adType/adType.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adType/adType.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/adType/adType.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/app.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/java/com/it/yanxuan/portal/controller/AdInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/resources/fsatdfs/fdfs_client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/TruePng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/arrow_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/arrow_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner_more_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner_more_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner_more_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/banner_more_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/c_banner_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cas_qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cas_qa_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cas_qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/check_show_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/check_show_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/check_show_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/check_show_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/check_show_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/check_show_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/children_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cmd_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cmd_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/cmd_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/color_opt_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/color_opt_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/complete_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/drink_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/drink_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/drink_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/drink_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/drink_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/ewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/flip_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/footer_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/footer_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/footer_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/footer_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/footer_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/footer_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/fresh_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/fresh_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/fresh_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/fresh_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/fresh_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/goods_big_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/goods_big_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/goods_big_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/goods_min_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/goods_min_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/goods_min_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/guees_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/guees_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/guees_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/guees_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/guees_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/guees_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/head_par.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/icon_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/icon_014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/icon_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/imgadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/infor_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/infor_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/infor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/infor_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/l_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/like_res_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/like_res_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/list_nav_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/log_on_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/mend_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/mend_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/mend_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/million_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/million_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/million_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/million_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/more_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/muying_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/muying_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/muying_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/muying_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/necklace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/news_c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/news_c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/opt_show_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/par_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/pro_line_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/promise_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/promise_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/promise_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/promise_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/reba_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/rebate_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/reg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/saoyisao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/shopping_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/touxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/triagn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/triagn_pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/tuijianqianggou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/want_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/want_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/want_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/want_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/wares_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/welfare_line_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/images/xin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/address/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/custom/adInfo.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/custom/adInfo.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/custom/app.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/custom/app.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/custom/app.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/million.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/personal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/angular/angular-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/angular/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/angular/angular-route.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/angular/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/angular/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/angular/angular.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/yanxuan_portal_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yanxuan_goods_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_goods_service_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yanxuan_manager_server_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/yanxuan_manager_server_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/java/com/it/yanxuan/goods/service/GoodsInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/src/main/java/com/it/yanxuan/viewmodel/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/src/main/java/com/it/yanxuan/viewmodel/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/UploadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/java/com/it/yanxuan/seller/controller/UploadFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/goods/goods.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/goods/goods.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/js/custom/wizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/yanxuan_dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/yanxuan_dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/yanxuan_goods_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/yanxuan_goods_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/yanxuan_goods_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service/yanxuan_goods_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/java/com/it/yanxuan/manager/controller/GoodsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/java/com/it/yanxuan/manager/controller/GoodsBrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/app.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/app.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/seller/seller.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/js/common/seller/seller.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/pages/ad/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/pages/ad/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/pages/ad/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/pages/ad/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/pages/ad/type.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/pages/ad/type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/plugins/date-time-picker/js/locales/bootstrap-datetimepicker.zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/src/main/webapp/plugins/date-time-picker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/yanxuan_manager_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/yanxuan_manager_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/src/main/java/com/it/yanxuan/model/AdInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/src/main/java/com/it/yanxuan/model/AdInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/yanxuan_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/yanxuan_model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/pages/goods/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/webapp/pages/goods/edit.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,10 +279,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="JavaScript File" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,12 +308,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/src/main/webapp/js/custom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -86,23 +323,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_seller_server\src\main\resources" />
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_common\src\main\java\com\it\yanxuan\common\utils" />
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_seller_server\src\main\webapp\images" />
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_seller_server\src\main\webapp\plugins" />
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_seller_server\src\main\webapp\js\custom\goods" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_portal_server\src\main\webapp" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_portal_server\src\main\resources" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_ad_service\src\main\webapp" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_common\src\main\resources\fsatdfs" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_goods_service\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.it.yanxuan.ad.controller" />
       <recent name="com.it.yanxuan.seller.controller" />
       <recent name="com.it.dubbo.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_common\src\main\resources\fsatdfs" />
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_goods_service\src\main\webapp" />
-      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_dao\src\main\resources\properties" />
-      <recent name="E:\idea-workspace\dubbo\dubbo-01-customer\src\main\webapp" />
-      <recent name="E:\idea-workspace\dubbo\dubbo-01-start\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_portal_server\src\main\webapp\js\custom" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_portal_server\src\main\webapp" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_portal_server\src\main\resources" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_portal_server\WEB-INF" />
+      <recent name="E:\idea-workspace\dubbo\yanxuan_parent\yanxuan_manager_server\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.yanxuan_seller_server [tomcat7:run]">
+  <component name="RunManager" selected="Maven.yanxuan_ad_service:8802">
     <configuration name="FastdfsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.it.yanxuan.test.FastdfsTest" />
       <module name="yanxuan_seller_server" />
@@ -130,6 +368,31 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="yanxuan_ad_service:8802" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="yanxuan_goods_service [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -176,6 +439,31 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="yanxuan_portal_server：9903" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -242,7 +530,9 @@
       <workItem from="1594173521553" duration="22490000" />
       <workItem from="1594261158582" duration="8492000" />
       <workItem from="1594287608735" duration="6831000" />
-      <workItem from="1594348492572" duration="24134000" />
+      <workItem from="1594348492572" duration="24733000" />
+      <workItem from="1594439332858" duration="1462000" />
+      <workItem from="1594606538479" duration="30198000" />
     </task>
     <servers />
   </component>

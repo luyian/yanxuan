@@ -1,5 +1,7 @@
 package com.it.yanxuan.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class AdInfo implements java.io.Serializable {
@@ -11,8 +13,10 @@ public class AdInfo implements java.io.Serializable {
 
     private String url;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date startTime;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date endTime;
 
     private String status;

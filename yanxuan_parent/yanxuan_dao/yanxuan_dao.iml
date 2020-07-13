@@ -29,5 +29,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.0.15.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.0.15.RELEASE" level="project" />
     <orderEntry type="module" module-name="yanxuan_model" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.8" level="project" />
   </component>
 </module>

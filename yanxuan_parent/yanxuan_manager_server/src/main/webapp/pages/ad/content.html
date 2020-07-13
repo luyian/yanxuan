@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -25,9 +25,9 @@
             <form class="d-md-inline-block form-inline">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="标题名称" aria-label="Search"
-                           aria-describedby="basic-addon2">
+                           aria-describedby="basic-addon2" ng-model="name">
                     <div class="input-group-append">
-                        <button class="btn btn-primary" type="button">
+                        <button class="btn btn-primary" type="button" ng-click="pageQuery()">
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
@@ -50,83 +50,22 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>开学季，笔记本促销</td>
-                    <td>http://www.itjiguang.com</td>
-                    <td></td>
-                    <td>启用</td>
+                <tr ng-repeat="item in dataList">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.url}}</td>
+                    <td ng-bind-html="item.content | to_trusted"></td>
+                    <td>{{statusArr[item.status]}}</td>
                     <td>
-                        <a type="button" class="btn btn-primary" href="#/ad/edit">修改</a>
-                        <button type="button" class="btn btn-primary">停用</button>
+                        <a type="button" class="btn btn-primary" href="#/ad/edit/{{item.id}}">修改</a>
+                        <button type="button" class="btn btn-primary" ng-click="delete(item.id)">停用</button>
                     </td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>家电盛典</td>
-                    <td>http://www.itjiguang.com</td>
-                    <td></td>
-                    <td>启用</td>
-                    <td>
-                        <a type="button" class="btn btn-primary" href="#/ad/edit">修改</a>
-                        <button type="button" class="btn btn-primary">停用</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>领阅不凡世界</td>
-                    <td>http://www.itjiguang.com</td>
-                    <td>
-                        <img src="./img/content.jpg" style="width: 80px"/>
-                    </td>
-                    <td>启用</td>
-                    <td>
-                        <a type="button" class="btn btn-primary" href="#/ad/edit">修改</a>
-                        <button type="button" class="btn btn-primary">停用</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>华为品牌日</td>
-                    <td>http://www.itjiguang.com</td>
-                    <td></td>
-                    <td>启用</td>
-                    <td>
-                        <a type="button" class="btn btn-primary" href="#/ad/edit">修改</a>
-                        <button type="button" class="btn btn-primary">停用</button>
-                    </td>
-                </tr>
+
                 </tbody>
             </table>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-5">
-                <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">
-                    共 100 条数据
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-7">
-                <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
-                    <ul class="pagination justify-content-end">
-                        <li class="paginate_button page-item previous disabled" id="dataTable_previous">
-                            <a href="#" aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
-                        </li>
-                        <li class="paginate_button page-item active">
-                            <a href="#" aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">1</a>
-                        </li>
-                        <li class="paginate_button page-item ">
-                            <a href="#" aria-controls="dataTable" data-dt-idx="2" tabindex="0" class="page-link">2</a>
-                        </li>
-                        <li class="paginate_button page-item ">
-                            <a href="#" aria-controls="dataTable" data-dt-idx="3" tabindex="0" class="page-link">3</a>
-                        </li>
-                        <li class="paginate_button page-item next" id="dataTable_next">
-                            <a href="#" aria-controls="dataTable" data-dt-idx="7" tabindex="0"
-                               class="page-link">Next</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <pagination></pagination>
         </div>
     </div>
 </div>

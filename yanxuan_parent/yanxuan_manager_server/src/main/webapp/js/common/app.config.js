@@ -19,12 +19,16 @@ angular.module("yanxuan").config(["$routeProvider",function($routeProvider){
     }).when("/seller/manage",{
         templateUrl: "pages/seller/manage.html"
     }).when("/ad/type",{
-        templateUrl: "pages/ad/type.html"
+        templateUrl: "pages/ad/type.html",
+        controller : "adTypeController"
     }).when("/ad/content",{
-        templateUrl: "pages/ad/content.html"
+        templateUrl: "pages/ad/content.html",
+        controller : "adInfoController"
     }).when("/ad/edit/",{
-        templateUrl: "pages/ad/edit.html"
+        templateUrl: "pages/ad/edit.html",
+        controller : "adInfoEditController"
     }).when("/ad/edit/:id",{
-        templateUrl: "pages/ad/edit.html"
+        templateUrl: "pages/ad/edit.html",
+        controller : "adInfoEditController"
     }).otherwise({redirectTo:'/'});
 }]);

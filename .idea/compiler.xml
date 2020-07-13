@@ -8,10 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="yanxuan_goods_api" />
         <module name="yanxuan_model" />
-        <module name="yanxuan_goods_service" />
+        <module name="yanxuan_ad_service" />
         <module name="yanxuan_seller_server" />
+        <module name="yanxuan_portal_server" />
+        <module name="yanxuan_ad_api" />
         <module name="yanxuan_dao" />
         <module name="yanxuan_manager_server" />
+        <module name="yanxuan_goods_service" />
         <module name="yanxuan_common" />
       </profile>
     </annotationProcessing>
@@ -19,6 +22,8 @@
       <module name="dubbo-01-customer" target="1.8" />
       <module name="dubbo-01-start" target="1.8" />
       <module name="mybatis_genertor" target="1.8" />
+      <module name="yanxuan_ad_api" target="1.8" />
+      <module name="yanxuan_ad_service" target="1.8" />
       <module name="yanxuan_common" target="1.8" />
       <module name="yanxuan_dao" target="1.8" />
       <module name="yanxuan_goods_api" target="1.8" />
@@ -26,6 +31,7 @@
       <module name="yanxuan_manager_server" target="1.8" />
       <module name="yanxuan_model" target="1.8" />
       <module name="yanxuan_parent" target="1.8" />
+      <module name="yanxuan_portal_server" target="1.8" />
       <module name="yanxuan_seller_server" target="1.8" />
     </bytecodeTargetLevel>
   </component>

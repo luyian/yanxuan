@@ -8,5 +8,7 @@ angular.module("yanxuan",
         "spec",
         "category",
         "loginUser",
-        "seller"
+        "seller",
+        "adType",
+        "adInfo"
     ]);

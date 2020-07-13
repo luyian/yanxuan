@@ -3,8 +3,10 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dubbo-01-customer" />
     <file type="web" url="file://$PROJECT_DIR$/dubbo-01-start" />
+    <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service" />
     <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_service" />
     <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server" />
+    <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server" />
     <file type="web" url="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server" />
   </component>
   <component name="MavenProjectsManager">
@@ -15,6 +17,11 @@
         <option value="$PROJECT_DIR$/mybatis_genertor/pom.xml" />
         <option value="$PROJECT_DIR$/yanxuan_parent/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/yanxuan_parent/yanxuan_protal_server/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

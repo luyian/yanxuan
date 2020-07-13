@@ -31,7 +31,7 @@ angular.module("seller").controller("sellerController", function ($scope, seller
     //初始化查看详情的数据
     $scope.initEntity = function (seller) {
         $scope.entity = seller;
-    }
+    };
 
     //状态修改
     $scope.updateStatus = function (id, status) {

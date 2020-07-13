@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_api/yanxuan_ad_api.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_api/yanxuan_ad_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/yanxuan_ad_service.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_ad_service/yanxuan_ad_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_common/yanxuan_common.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_common/yanxuan_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/yanxuan_dao.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_dao/yanxuan_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/yanxuan_goods_api.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_goods_api/yanxuan_goods_api.iml" />
@@ -9,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/yanxuan_manager_server.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_manager_server/yanxuan_manager_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_model/yanxuan_model.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_model/yanxuan_model.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_parent.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/yanxuan_portal_server.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_portal_server/yanxuan_portal_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/yanxuan_seller_server.iml" filepath="$PROJECT_DIR$/yanxuan_parent/yanxuan_seller_server/yanxuan_seller_server.iml" />
     </modules>
   </component>

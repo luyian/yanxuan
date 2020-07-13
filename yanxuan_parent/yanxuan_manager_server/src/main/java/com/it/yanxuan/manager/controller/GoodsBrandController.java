@@ -4,7 +4,6 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.it.yanxuan.goods.api.IGoodsBrandService;
 import com.it.yanxuan.model.GoodsBrand;
 import com.it.yanxuan.result.PageResult;
-import com.it.yanxuan.result.Result;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

@@ -1,0 +1,23 @@
+//定义specController
+angular.module("yanxuan").controller("adInfoController", function ($scope, adInfoService) {
+    //监听视图内容是否加载完毕，加载完毕后触发回调函数
+    $scope.$on("$viewContentLoaded", function (event) {
+        $scope.pageQuery();
+    });
+
+    //发送分页的请求
+    $scope.pageQuery = function(entity) {
+        //定义查询参数
+        var queryParams = {
+            typeId : 1,
+            status : "0"
+        };
+        adInfoService.get(queryParams)
+            .then(
+                function (value) {
+                    $scope.dataList = value.data.result;
+                }
+            );
+    };
+
+});
