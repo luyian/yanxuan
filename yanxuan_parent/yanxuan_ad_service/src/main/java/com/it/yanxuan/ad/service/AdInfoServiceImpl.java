@@ -9,6 +9,7 @@ import com.it.yanxuan.model.AdInfo;
 import com.it.yanxuan.model.AdInfoExample;
 import com.it.yanxuan.result.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -21,6 +22,8 @@ public class AdInfoServiceImpl implements IAdInfoService {
 
     @Autowired
     private AdInfoMapper adInfoMapper;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     /**
      * 分页查询
@@ -31,6 +34,16 @@ public class AdInfoServiceImpl implements IAdInfoService {
      */
     @Override
     public PageResult<AdInfo> pageQuery(Integer pageNum, Integer pageSize, AdInfo adInfo) {
+
+        //从redis缓存中获取数据
+        if (adInfo != null && adInfo.getTypeId() != null) {
+            PageResult pageResult = (PageResult) redisTemplate.boundHashOps("adInfo").get(adInfo.getTypeId().toString());
+            if (pageResult != null) {
+                System.out.println("从redis中获得数据");
+                return pageResult;
+            }
+        }
+
         //构建查询条件
         AdInfoExample adInfoExample = new AdInfoExample();
         AdInfoExample.Criteria criteria = adInfoExample.createCriteria();
@@ -55,6 +68,11 @@ public class AdInfoServiceImpl implements IAdInfoService {
         PageResult<AdInfo> pageResult = new PageResult<>();
         pageResult.setTotal(adInfoPage.getTotal());
         pageResult.setResult(adInfoPage.getResult());
+
+        //使用redis缓存
+        if (adInfo != null && adInfo.getTypeId() != null) {
+            redisTemplate.boundHashOps("adInfo").put(adInfo.getTypeId().toString(), pageResult);
+        }
 
         return pageResult;
     }
@@ -86,7 +104,9 @@ public class AdInfoServiceImpl implements IAdInfoService {
      */
     @Override
     public int delete(Long id) {
-        AdInfo adInfo = new AdInfo();
+        AdInfo adInfo = adInfoMapper.selectByPrimaryKey(id);
+        //删除redis缓存
+        redisTemplate.boundHashOps("adInfo").delete(adInfo.getTypeId().toString());
         adInfo.setStatus("1");
         adInfo.setId(id);
         return adInfoMapper.updateByPrimaryKeySelective(adInfo);
