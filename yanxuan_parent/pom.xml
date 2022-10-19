@@ -41,7 +41,7 @@
         <solrj.version>4.10.3</solrj.version>
         <ik.version>2012_u6</ik.version>
         <log4j.version>1.7.20</log4j.version>
-        <jackson.version>2.9.8</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
     </properties>
     <!-- 版本锁定 -->
     <dependencyManagement>
